@@ -1,0 +1,1205 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aqua New - Indústria e Comércio de Piscinas e Caixas d'Água</title>
+    <meta
+      name="description"
+      content="Especializada em piscinas e caixas d’água em fibra de vidro, aquecedores e artigos para ornamentação e manutenção de piscinas em Campo Grande, MS."
+    />
+    <meta name="robots" content="noindex, nofollow" />
+
+    <!-- Google Fonts: Raleway & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              aqua: {
+                50: "#f0f9ff",
+                100: "#e0f2fe",
+                500: "#0ea5e9",
+                600: "#0284c7",
+                750: "#0369a1",
+                800: "#075985",
+                900: "#0c4a6e",
+                950: "#082f49",
+              },
+              brand: {
+                light: "#38bdf8",
+                DEFAULT: "#0284c7",
+                dark: "#0369a1",
+                accent: "#38bdf8",
+              },
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              heading: ["Raleway", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Raleway", sans-serif;
+      }
+      .hero-gradient {
+        background: linear-gradient(
+          135deg,
+          rgba(8, 47, 73, 0.92) 0%,
+          rgba(2, 132, 199, 0.75) 100%
+        );
+      }
+    </style>
+  </head>
+  <body
+    class="bg-slate-50 text-slate-800 antialiased selection:bg-cyan-500 selection:text-white"
+  >
+    <!-- Top Utility Bar -->
+    <div
+      class="bg-slate-900 text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-slate-800"
+    >
+      <div
+        class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2"
+      >
+        <div class="flex items-center sm:flex-row gap-4">
+          <span class="flex items-center gap-1.5 font-medium text-cyan-400">
+            <i data-lucide="factory" class="w-4 h-4"></i> Indústria 100% MS
+          </span>
+          <span class="hidden md:flex items-center gap-1.5 text-slate-300">
+            <i data-lucide="map-pin" class="w-4 h-4 text-cyan-400"></i> Av. Mato
+            Grosso, 2820 - Santa Fé, Campo Grande/MS
+          </span>
+        </div>
+        <div class="flex items-center gap-6">
+          <a
+            href="tel:6733261566"
+            class="flex items-center gap-1.5 hover:text-cyan-400 font-semibold transition-colors"
+          >
+            <i data-lucide="phone" class="w-4 h-4 text-cyan-400"></i> (67)
+            3326-1566
+          </a>
+          <div class="hidden sm:flex items-center gap-3 text-slate-400">
+            <span>Seg a Sex: 08h às 18h | Sáb: 08h às 13h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Header -->
+    <header
+      class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100 transition-all duration-300"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-20">
+          <!-- Logo -->
+          <a href="#" class="flex items-center gap-3 group">
+            <img
+              src="https://res.cloudinary.com/dnzfvkgag/image/upload/v1791887353/logo-aqua-new-transparent_aofeyz.png"
+              alt="Logo Aqua New"
+              class="h-12 w-auto object-contain transition-transform group-hover:scale-105"
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
+
+          <!-- Desktop Navigation -->
+          <nav class="hidden lg:flex items-center gap-1 font-medium">
+            <a
+              href="#"
+              class="px-4 py-2 text-slate-700 hover:text-cyan-600 rounded-lg transition-colors"
+              >Home</a
+            >
+            <a
+              href="#institucional"
+              class="px-4 py-2 text-slate-700 hover:text-cyan-600 rounded-lg transition-colors"
+              >Institucional</a
+            >
+
+            <!-- Produtos Dropdown -->
+            <div class="relative group">
+              <button
+                class="px-4 py-2 text-slate-700 hover:text-cyan-600 rounded-lg flex items-center gap-1 transition-colors"
+              >
+                Produtos
+                <i
+                  data-lucide="chevron-down"
+                  class="w-4 h-4 transition-transform group-hover:rotate-180"
+                ></i>
+              </button>
+              <div
+                class="absolute top-full left-0 w-64 bg-white shadow-xl rounded-xl border border-slate-100 py-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0"
+              >
+                <a
+                  href="#produtos"
+                  class="block px-4 py-2.5 text-sm text-slate-700 hover:bg-cyan-50 hover:text-cyan-600 font-semibold border-b border-slate-100"
+                  >- Ver todos -</a
+                >
+                <a
+                  href="#produtos"
+                  class="block px-4 py-2 text-sm text-slate-600 hover:bg-cyan-50 hover:text-cyan-600"
+                  >Piscinas</a
+                >
+                <a
+                  href="#produtos"
+                  class="block px-4 py-2 text-sm text-slate-600 hover:bg-cyan-50 hover:text-cyan-600"
+                  >Acessórios</a
+                >
+                <a
+                  href="#produtos"
+                  class="block px-4 py-2 text-sm text-slate-600 hover:bg-cyan-50 hover:text-cyan-600"
+                  >Iluminação subaquática</a
+                >
+                <a
+                  href="#produtos"
+                  class="block px-4 py-2 text-sm text-slate-600 hover:bg-cyan-50 hover:text-cyan-600"
+                  >Caixas d'água</a
+                >
+                <a
+                  href="#produtos"
+                  class="block px-4 py-2 text-sm text-slate-600 hover:bg-cyan-50 hover:text-cyan-600"
+                  >Filtros e maquinário</a
+                >
+              </div>
+            </div>
+
+            <!-- Contato Dropdown -->
+            <div class="relative group">
+              <button
+                class="px-4 py-2 text-slate-700 hover:text-cyan-600 rounded-lg flex items-center gap-1 transition-colors"
+              >
+                Contato
+                <i
+                  data-lucide="chevron-down"
+                  class="w-4 h-4 transition-transform group-hover:rotate-180"
+                ></i>
+              </button>
+              <div
+                class="absolute top-full left-0 w-52 bg-white shadow-xl rounded-xl border border-slate-100 py-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0"
+              >
+                <a
+                  href="#orcamento"
+                  class="block px-4 py-2 text-sm text-slate-700 hover:bg-cyan-50 hover:text-cyan-600"
+                  >Faça seu orçamento</a
+                >
+                <a
+                  href="#contato"
+                  class="block px-4 py-2 text-sm text-slate-700 hover:bg-cyan-50 hover:text-cyan-600"
+                  >Fale conosco</a
+                >
+              </div>
+            </div>
+          </nav>
+
+          <!-- CTA Button -->
+          <div class="hidden lg:flex items-center gap-3">
+            <a
+              href="#orcamento"
+              class="bg-cyan-600 hover:bg-cyan-700 text-white font-semibold px-6 py-2.5 rounded-xl shadow-lg shadow-cyan-600/20 transition-all hover:scale-105 active:scale-95"
+            >
+              Solicitar Orçamento
+            </a>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button
+            id="mobile-menu-btn"
+            class="lg:hidden p-2 text-slate-700 hover:text-cyan-600 focus:outline-none"
+          >
+            <i data-lucide="menu" class="w-7 h-7"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu drawer -->
+      <div
+        id="mobile-menu"
+        class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3"
+      >
+        <a
+          href="#"
+          class="block px-3 py-2 rounded-lg text-slate-700 hover:bg-cyan-50 font-medium"
+          >Home</a
+        >
+        <a
+          href="#institucional"
+          class="block px-3 py-2 rounded-lg text-slate-700 hover:bg-cyan-50 font-medium"
+          >Institucional</a
+        >
+        <div class="space-y-1 pl-3 border-l-2 border-cyan-500">
+          <span
+            class="block px-3 py-1 text-xs font-semibold text-slate-400 uppercase tracking-wider"
+            >Produtos</span
+          >
+          <a
+            href="#produtos"
+            class="block px-3 py-1.5 text-sm text-slate-600 hover:text-cyan-600"
+            >Piscinas</a
+          >
+          <a
+            href="#produtos"
+            class="block px-3 py-1.5 text-sm text-slate-600 hover:text-cyan-600"
+            >Caixas d'água</a
+          >
+          <a
+            href="#produtos"
+            class="block px-3 py-1.5 text-sm text-slate-600 hover:text-cyan-600"
+            >Acessórios e Filtros</a
+          >
+        </div>
+        <div class="pt-2">
+          <a
+            href="#orcamento"
+            class="block text-center w-full bg-cyan-600 text-white font-semibold py-3 rounded-xl shadow-md"
+            >Faça seu Orçamento</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="relative min-h-[85vh] flex items-center justify-center bg-slate-900 overflow-hidden"
+    >
+      <!-- Background Image with Overlay -->
+      <div class="absolute inset-0 z-0">
+        <img
+          src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?q=80&w=1920&auto=format&fit=crop"
+          alt="Piscina Aqua New"
+          class="w-full h-full object-cover object-center scale-105 animate-pulse duration-[10000ms]"
+          loading="eager"
+          decoding="async"
+        />
+        <div class="absolute inset-0 hero-gradient"></div>
+      </div>
+
+      <div
+        class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center sm:text-left w-full"
+      >
+        <div class="max-w-3xl">
+          <div
+            class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 text-cyan-200 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 shadow-lg"
+          >
+            <i data-lucide="sparkles" class="w-4 h-4 text-cyan-300"></i>
+            Fabricação Própria Direto da Fábrica
+          </div>
+          <h1
+            class="text-4xl sm:text-6xl lg:text-7xl font-extrabold text-white tracking-tight leading-tight mb-6"
+          >
+            Somos Indústria </br>
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-200 block sm:inline"
+              >100% MS</span
+            >
+          </h1>
+          <p
+            class="text-lg sm:text-xl text-slate-200 mb-8 font-normal leading-relaxed"
+          >
+            Você merece ser feliz e com o máximo de qualidade! A
+            <strong class="text-white font-semibold">Aqua New</strong> possui o
+            melhor preço e qualidade do mercado para piscinas, caixas d'água e
+            afins. Nós industrializamos e realizamos sonhos.
+          </p>
+          <div
+            class="flex flex-col sm:flex-row items-center gap-4 justify-center sm:justify-start"
+          >
+            <a
+              href="#produtos"
+              class="w-full sm:w-auto bg-cyan-500 hover:bg-cyan-600 text-white font-bold px-8 py-4 rounded-2xl shadow-xl shadow-cyan-500/30 transition-all hover:scale-105 text-center flex items-center justify-center gap-2"
+            >
+              <i data-lucide="waves" class="w-5 h-5"></i> Conhecer Nossas
+              Piscinas
+            </a>
+            <a
+              href="#orcamento"
+              class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border border-white/30 backdrop-blur-md font-bold px-8 py-4 rounded-2xl transition-all hover:scale-105 text-center flex items-center justify-center gap-2"
+            >
+              <i data-lucide="calculator" class="w-5 h-5"></i> Simular Orçamento
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wave Divider Bottom -->
+      <div class="absolute bottom-0 left-0 right-0">
+        <svg
+          viewBox="0 0 1440 120"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-full h-12 text-slate-50 preserve-3d"
+        >
+          <path
+            d="M0,32L60,42.7C120,53,240,75,360,80C480,85,600,75,720,58.7C840,43,960,21,1080,21.3C1200,21,1320,43,1380,53.3L1440,64L1440,120L1380,120C1320,120,1200,120,1080,120C960,120,840,120,720,120C600,120,480,120,360,120C240,120,120,120,60,120L0,120Z"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="produtos" class="py-20 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span
+            class="text-cyan-600 font-bold uppercase tracking-wider text-sm bg-cyan-100 px-3 py-1 rounded-full"
+            >Catálogo Completo</span
+          >
+          <h2
+            class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 mb-4"
+          >
+            Nossos Produtos em Fibra de Vidro
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg">
+            Produtos em fibra de vidro com fabricação própria e revenda direto
+            da fábrica, garantindo o melhor preço, mais variedade e a qualidade
+            que só a Aqua New oferece em Mato Grosso do Sul.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Product 1 -->
+          <div
+            class="bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100 flex flex-col"
+          >
+            <div class="relative h-56 overflow-hidden bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?q=80&w=800&auto=format&fit=crop"
+                alt="Piscinas"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                loading="lazy"
+                decoding="async"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4"
+              >
+                <span
+                  class="bg-cyan-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg"
+                  >Fabricação Própria</span
+                >
+              </div>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3
+                  class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors"
+                >
+                  Piscinas
+                </h3>
+                <p class="text-slate-600 text-sm mb-4">
+                  Aqua New - Nós industrializamos e realizamos sonhos com
+                  diversos modelos e tamanhos.
+                </p>
+              </div>
+              <button
+                onclick="
+                  openProductModal(
+                    'Piscinas',
+                    'Linha completa de piscinas em fibra de vidro com fabricação 100% MS, alta durabilidade, design moderno e garantia de fábrica.',
+                  )
+                "
+                class="w-full bg-slate-100 hover:bg-cyan-600 hover:text-white text-slate-700 font-semibold py-2.5 rounded-xl transition-all text-sm flex items-center justify-center gap-1.5"
+              >
+                Ver Detalhes <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div
+            class="bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100 flex flex-col"
+          >
+            <div class="relative h-56 overflow-hidden bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+                alt="Caixas d'água"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3
+                  class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors"
+                >
+                  Caixas d'água
+                </h3>
+                <p class="text-slate-600 text-sm mb-4">
+                  Caixas d'água em fibra de vidro direto da fábrica, em
+                  litragens variadas. Mais um produto com o selo de qualidade
+                  Aqua New.
+                </p>
+              </div>
+              <button
+                onclick="
+                  openProductModal(
+                    'Caixas d\'água',
+                    'Caixas d\'água em fibra de vidro de alta resistência e litragens variadas para residências e comércios. Qualidade garantida.',
+                  )
+                "
+                class="w-full bg-slate-100 hover:bg-cyan-600 hover:text-white text-slate-700 font-semibold py-2.5 rounded-xl transition-all text-sm flex items-center justify-center gap-1.5"
+              >
+                Ver Detalhes <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div
+            class="bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100 flex flex-col"
+          >
+            <div class="relative h-56 overflow-hidden bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop"
+                alt="Escorregador"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3
+                  class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors"
+                >
+                  Escorregador
+                </h3>
+                <p class="text-slate-600 text-sm mb-4">
+                  Escorregadores em fibra de vidro direto da fábrica para
+                  garantir a diversão da criançada com total segurança.
+                </p>
+              </div>
+              <button
+                onclick="
+                  openProductModal(
+                    'Escorregador',
+                    'Escorregadores ergonômicos em fibra de vidro, cores vibrantes, alta durabilidade e encaixe perfeito para piscinas.',
+                  )
+                "
+                class="w-full bg-slate-100 hover:bg-cyan-600 hover:text-white text-slate-700 font-semibold py-2.5 rounded-xl transition-all text-sm flex items-center justify-center gap-1.5"
+              >
+                Ver Detalhes <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div
+            class="bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100 flex flex-col"
+          >
+            <div class="relative h-56 overflow-hidden bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=800&auto=format&fit=crop"
+                alt="Poltronas"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3
+                  class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors"
+                >
+                  Poltronas
+                </h3>
+                <p class="text-slate-600 text-sm mb-4">
+                  Poltronas em fibra de vidro direto da fábrica, oferecendo
+                  conforto e sofisticação para sua área de lazer.
+                </p>
+              </div>
+              <button
+                onclick="
+                  openProductModal(
+                    'Poltronas',
+                    'Poltronas em fibra de vidro resistentes à água e intempéries, ideais para ambientes externos e beira de piscinas.',
+                  )
+                "
+                class="w-full bg-slate-100 hover:bg-cyan-600 hover:text-white text-slate-700 font-semibold py-2.5 rounded-xl transition-all text-sm flex items-center justify-center gap-1.5"
+              >
+                Ver Detalhes <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Product 5 -->
+          <div
+            class="bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100 flex flex-col"
+          >
+            <div class="relative h-56 overflow-hidden bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop"
+                alt="Espreguiçadeiras"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3
+                  class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors"
+                >
+                  Espreguiçadeiras
+                </h3>
+                <p class="text-slate-600 text-sm mb-4">
+                  Espreguiçadeiras em fibra de vidro para sua família aproveitar
+                  o melhor de sua piscina com máximo relaxamento.
+                </p>
+              </div>
+              <button
+                onclick="
+                  openProductModal(
+                    'Espreguiçadeiras',
+                    'Espreguiçadeiras anatômicas em fibra de vidro, fáceis de limpar e altamente duráveis para uso residencial ou comercial.',
+                  )
+                "
+                class="w-full bg-slate-100 hover:bg-cyan-600 hover:text-white text-slate-700 font-semibold py-2.5 rounded-xl transition-all text-sm flex items-center justify-center gap-1.5"
+              >
+                Ver Detalhes <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Product 6 -->
+          <div
+            class="bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100 flex flex-col"
+          >
+            <div class="relative h-56 overflow-hidden bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop"
+                alt="Filtros e Maquinários"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3
+                  class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors"
+                >
+                  Filtros e Maquinários
+                </h3>
+                <p class="text-slate-600 text-sm mb-4">
+                  Equipamentos filtrantes, filtros e maquinário para piscinas.
+                  Manutenção e sustentabilidade para sua diversão.
+                </p>
+              </div>
+              <button
+                onclick="
+                  openProductModal(
+                    'Filtros e Maquinários',
+                    'Trabalhamos com as melhores marcas (Dancor, Nautilus, Fluidra) para garantir a perfeita purificação e tratamento da água da sua piscina.',
+                  )
+                "
+                class="w-full bg-slate-100 hover:bg-cyan-600 hover:text-white text-slate-700 font-semibold py-2.5 rounded-xl transition-all text-sm flex items-center justify-center gap-1.5"
+              >
+                Ver Detalhes <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Product 7 -->
+          <div
+            class="bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100 flex flex-col"
+          >
+            <div class="relative h-56 overflow-hidden bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1563245372-f21724e3856d?q=80&w=800&auto=format&fit=crop"
+                alt="Acessórios"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3
+                  class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors"
+                >
+                  Acessórios
+                </h3>
+                <p class="text-slate-600 text-sm mb-4">
+                  Produtos e acessórios em geral para a manutenção, limpeza e
+                  cuidado da sua piscina.
+                </p>
+              </div>
+              <button
+                onclick="
+                  openProductModal(
+                    'Acessórios',
+                    'Peneiras, aspiradores, cabos telescópicos, escovas, produtos químicos e capas de proteção para limpeza completa.',
+                  )
+                "
+                class="w-full bg-slate-100 hover:bg-cyan-600 hover:text-white text-slate-700 font-semibold py-2.5 rounded-xl transition-all text-sm flex items-center justify-center gap-1.5"
+              >
+                Ver Detalhes <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Product 8 -->
+          <div
+            class="bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-slate-100 flex flex-col"
+          >
+            <div class="relative h-56 overflow-hidden bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?q=80&w=800&auto=format&fit=crop"
+                alt="Iluminação Subaquática"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3
+                  class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors"
+                >
+                  Iluminação Subaquática
+                </h3>
+                <p class="text-slate-600 text-sm mb-4">
+                  Linha de produtos para iluminação subaquática em LED, trazendo
+                  charme e modernidade para suas noites na piscina.
+                </p>
+              </div>
+              <button
+                onclick="
+                  openProductModal(
+                    'Iluminação Subaquática',
+                    'Leds de alta performance com controle de cores RGB para transformar sua piscina em um verdadeiro espetáculo noturno.',
+                  )
+                "
+                class="w-full bg-slate-100 hover:bg-cyan-600 hover:text-white text-slate-700 font-semibold py-2.5 rounded-xl transition-all text-sm flex items-center justify-center gap-1.5"
+              >
+                Ver Detalhes <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pool Models Showcase -->
+    <section class="py-20 bg-white border-t border-slate-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span
+            class="text-cyan-600 font-bold uppercase tracking-wider text-sm bg-cyan-100 px-3 py-1 rounded-full"
+            >Modelos em Destaque</span
+          >
+          <h2
+            class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 mb-4"
+          >
+            Piscinas Aqua New
+          </h2>
+          <p class="text-slate-600 text-base sm:text-lg">
+            Conheça nossos principais modelos, do compacto ao luxuoso SPA,
+            feitos sob medida para a sua casa.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Pool Item -->
+          <div
+            class="bg-slate-50 rounded-2xl p-4 border border-slate-100 hover:shadow-xl transition-all group"
+          >
+            <div class="h-48 rounded-xl overflow-hidden mb-4 bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1562778553-d1fefd1a986c?q=80&w=800&auto=format&fit=crop"
+                alt="Piscina Aqua Spa 6.0"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <h3 class="font-bold text-lg text-slate-900 mb-1">
+              Piscina AQUA SPA 6.0
+            </h3>
+            <p class="text-xs text-slate-500 mb-3">
+              Linha SPA com jatos e máximo conforto.
+            </p>
+            <button
+              onclick="
+                openProductModal(
+                  'Piscina AQUA SPA 6.0',
+                  'Modelo Aqua Spa 6.0: design sofisticado, cantos ergonômicos e espaço para hidromassagem. Ideal para momentos inesquecíveis em família.',
+                )
+              "
+              class="text-cyan-600 hover:text-cyan-700 font-semibold text-sm flex items-center gap-1"
+            >
+              Ver detalhes <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+          <!-- Pool Item -->
+          <div
+            class="bg-slate-50 rounded-2xl p-4 border border-slate-100 hover:shadow-xl transition-all group"
+          >
+            <div class="h-48 rounded-xl overflow-hidden mb-4 bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop"
+                alt="Piscina Aqua 351"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <h3 class="font-bold text-lg text-slate-900 mb-1">
+              Piscina AQUA 351
+            </h3>
+            <p class="text-xs text-slate-500 mb-3">
+              Perfeita para quintais de todos os tamanhos.
+            </p>
+            <button
+              onclick="
+                openProductModal(
+                  'Piscina AQUA 351',
+                  'Modelo Aqua 351: versatilidade e beleza. Uma das piscinas mais queridas pelos nossos clientes em Mato Grosso do Sul.',
+                )
+              "
+              class="text-cyan-600 hover:text-cyan-700 font-semibold text-sm flex items-center gap-1"
+            >
+              Ver detalhes <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+          <!-- Pool Item -->
+          <div
+            class="bg-slate-50 rounded-2xl p-4 border border-slate-100 hover:shadow-xl transition-all group"
+          >
+            <div class="h-48 rounded-xl overflow-hidden mb-4 bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?q=80&w=800&auto=format&fit=crop"
+                alt="Piscina Aqua Spa 7.0"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <h3 class="font-bold text-lg text-slate-900 mb-1">
+              Piscina AQUA SPA 7.0
+            </h3>
+            <p class="text-xs text-slate-500 mb-3">
+              Lançamento de alto padrão.
+            </p>
+            <button
+              onclick="
+                openProductModal(
+                  'Piscina AQUA SPA 7.0',
+                  'Modelo Aqua Spa 7.0: o mais novo lançamento da fábrica com amplas dimensões e acabamento premium.',
+                )
+              "
+              class="text-cyan-600 hover:text-cyan-700 font-semibold text-sm flex items-center gap-1"
+            >
+              Ver detalhes <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+
+          <!-- Pool Item -->
+          <div
+            class="bg-slate-50 rounded-2xl p-4 border border-slate-100 hover:shadow-xl transition-all group"
+          >
+            <div class="h-48 rounded-xl overflow-hidden mb-4 bg-slate-200">
+              <img
+                src="https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+                alt="Piscina AQUA 920"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <h3 class="font-bold text-lg text-slate-900 mb-1">
+              Piscina AQUA 920
+            </h3>
+            <p class="text-xs text-slate-500 mb-3">
+              Grande porte para grandes momentos.
+            </p>
+            <button
+              onclick="
+                openProductModal(
+                  'Piscina AQUA 920',
+                  'Modelo Aqua 920: ampla, espaçosa, ideal para lazer completo com toda a família e amigos.',
+                )
+              "
+              class="text-cyan-600 hover:text-cyan-700 font-semibold text-sm flex items-center gap-1"
+            >
+              Ver detalhes <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote & Contact Section -->
+    <section
+      id="orcamento"
+      class="py-20 bg-slate-900 text-white relative overflow-hidden"
+    >
+      <div
+        class="absolute inset-0 opacity-10 bg-[radial-gradient(#0284c7_1px,transparent_1px)] [background-size:16px_16px]"
+      ></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <span
+              class="text-cyan-400 font-bold uppercase tracking-wider text-sm bg-cyan-950/80 px-3 py-1 rounded-full border border-cyan-800"
+              >Atendimento Direto</span
+            >
+            <h2 class="text-3xl sm:text-5xl font-extrabold mt-4 mb-6">
+              Faça seu Orçamento com a Indústria
+            </h2>
+            <p class="text-slate-300 text-lg mb-8 leading-relaxed">
+              Fale diretamente com nossa equipe em Campo Grande/MS. Garantimos o
+              melhor preço, condições especiais de pagamento e atendimento
+              especializado para realizar o seu sonho.
+            </p>
+
+            <div class="space-y-4">
+              <div
+                class="flex items-center gap-4 bg-slate-800/60 p-4 rounded-xl border border-slate-700"
+              >
+                <div
+                  class="w-12 h-12 rounded-lg bg-cyan-500/20 flex items-center justify-center text-cyan-400"
+                >
+                  <i data-lucide="map-pin" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-white">Endereço</h4>
+                  <p class="text-slate-300 text-sm">
+                    Av. Mato Grosso, 2820 - Santa Fé, Campo Grande/MS
+                  </p>
+                </div>
+              </div>
+              <div
+                class="flex items-center gap-4 bg-slate-800/60 p-4 rounded-xl border border-slate-700"
+              >
+                <div
+                  class="w-12 h-12 rounded-lg bg-cyan-500/20 flex items-center justify-center text-cyan-400"
+                >
+                  <i data-lucide="phone-call" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-white">Telefone de Contato</h4>
+                  <p class="text-slate-300 text-sm">(67) 3326-1566</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form Card -->
+          <div
+            class="bg-white text-slate-800 rounded-3xl p-8 shadow-2xl border border-slate-100"
+          >
+            <h3 class="text-2xl font-bold text-slate-900 mb-2">
+              Solicite uma Cotação
+            </h3>
+            <p class="text-slate-500 text-sm mb-6">
+              Preencha os campos abaixo e entraremos em contato rapidamente.
+            </p>
+
+            <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+              <div>
+                <label
+                  class="block text-xs font-semibold text-slate-700 uppercase mb-1"
+                  >Seu Nome</label
+                >
+                <input
+                  type="text"
+                  required
+                  class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-cyan-500 focus:outline-none text-sm"
+                  placeholder="Ex: Maria Silva"
+                />
+              </div>
+              <div>
+                <label
+                  class="block text-xs font-semibold text-slate-700 uppercase mb-1"
+                  >Telefone / WhatsApp</label
+                >
+                <input
+                  type="tel"
+                  required
+                  class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-cyan-500 focus:outline-none text-sm"
+                  placeholder="(67) 99999-9999"
+                />
+              </div>
+              <div>
+                <label
+                  class="block text-xs font-semibold text-slate-700 uppercase mb-1"
+                  >Produto de Interesse</label
+                >
+                <select
+                  class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-cyan-500 focus:outline-none text-sm"
+                >
+                  <option>Piscinas em Fibra de Vidro</option>
+                  <option>Caixas d'água</option>
+                  <option>Escorregadores / Poltronas</option>
+                  <option>Filtros e Maquinários</option>
+                  <option>Iluminação Subaquática</option>
+                </select>
+              </div>
+              <div>
+                <label
+                  class="block text-xs font-semibold text-slate-700 uppercase mb-1"
+                  >Mensagem</label
+                >
+                <textarea
+                  rows="3"
+                  class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-cyan-500 focus:outline-none text-sm"
+                  placeholder="Descreva o tamanho do espaço ou o modelo desejado..."
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-4 rounded-xl shadow-lg shadow-cyan-600/30 transition-all text-base"
+              >
+                Enviar Solicitação
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      id="contato"
+      class="bg-slate-950 text-slate-400 pt-16 pb-12 border-t border-slate-900"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-10 pb-12 border-b border-slate-800"
+        >
+          <!-- Col 1 -->
+          <div>
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-3 group">
+              <img
+                src="https://res.cloudinary.com/dnzfvkgag/image/upload/v1791887353/logo-aqua-new-transparent_aofeyz.png"
+                alt="Logo Aqua New"
+                class="h-12 w-auto object-contain transition-transform group-hover:scale-105"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <p class="text-sm mb-4">
+              Indústria e comércio de piscinas e caixas d'água. Indústria 100%
+              MS.
+            </p>
+            <p class="text-sm flex items-center gap-2 mb-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-cyan-400"></i> Av.
+              Mato Grosso 2820, Santa Fé - Campo Grande/MS
+            </p>
+            <p class="text-sm flex items-center gap-2 mb-2">
+              <i data-lucide="phone" class="w-4 h-4 text-cyan-400"></i> (67)
+              3326-1566
+            </p>
+            <p class="text-sm flex items-center gap-2">
+              <i data-lucide="mail" class="w-4 h-4 text-cyan-400"></i>
+              aquanew@aquanew.com.br
+            </p>
+          </div>
+
+          <!-- Col 2: Latest updates -->
+          <div>
+            <h3 class="text-white font-bold text-lg mb-4 font-heading">
+              Últimas Atualizações
+            </h3>
+            <ul class="space-y-3 text-sm">
+              <li class="flex items-start gap-3">
+                <span
+                  class="bg-cyan-900 text-cyan-200 text-xs font-bold px-2 py-1 rounded"
+                  >16 ABR</span
+                >
+                <div>
+                  <a
+                    href="#produtos"
+                    class="text-white hover:text-cyan-400 font-medium block"
+                    >Filtros Fluidra</a
+                  >
+                  <span class="text-xs text-slate-500"
+                    >Filtros para piscinas de 17.000 a 70.000 Litros</span
+                  >
+                </div>
+              </li>
+              <li class="flex items-start gap-3">
+                <span
+                  class="bg-cyan-900 text-cyan-200 text-xs font-bold px-2 py-1 rounded"
+                  >11 ABR</span
+                >
+                <div>
+                  <a
+                    href="#produtos"
+                    class="text-white hover:text-cyan-400 font-medium block"
+                    >Filtros Dancor</a
+                  >
+                  <span class="text-xs text-slate-500"
+                    >Filtros para piscinas de 17.000 a 101.000 Litros</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Quick Navigation -->
+          <div>
+            <h3 class="text-white font-bold text-lg mb-4 font-heading">
+              Navegação Rápida
+            </h3>
+            <ul class="grid grid-cols-2 gap-2 text-sm">
+              <li>
+                <a href="#" class="hover:text-cyan-400 transition-colors"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#institucional"
+                  class="hover:text-cyan-400 transition-colors"
+                  >Institucional</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#produtos"
+                  class="hover:text-cyan-400 transition-colors"
+                  >Piscinas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#produtos"
+                  class="hover:text-cyan-400 transition-colors"
+                  >Caixas d'água</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#produtos"
+                  class="hover:text-cyan-400 transition-colors"
+                  >Acessórios</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#orcamento"
+                  class="hover:text-cyan-400 transition-colors"
+                  >Orçamento</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4"
+        >
+          <p>
+            Aqua New - Indústria e comércio de piscinas e caixas d'água.
+            Copyright © 2016-2026. Todos os direitos reservados.
+          </p>
+          <p class="flex items-center gap-1">
+            Protótipo Funcional Otimizado para UX &bull; Desenvolvido com
+            carinho para aprovação da proprietária.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal for product details -->
+    <div
+      id="product-modal"
+      class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/80 backdrop-blur-sm hidden p-4"
+    >
+      <div
+        class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative transform transition-all"
+      >
+        <button
+          onclick="closeProductModal()"
+          class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 p-2 rounded-full transition-colors"
+        >
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+        <div id="modal-content">
+          <h3 id="modal-title" class="text-2xl font-bold text-slate-900 mb-3">
+            Título do Produto
+          </h3>
+          <p
+            id="modal-desc"
+            class="text-slate-600 text-base mb-6 leading-relaxed"
+          >
+            Descrição detalhada do produto.
+          </p>
+          <div class="flex gap-3">
+            <a
+              href="#orcamento"
+              onclick="closeProductModal()"
+              class="flex-1 bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-3 rounded-xl text-center shadow-md"
+              >Solicitar Orçamento</a
+            >
+            <button
+              onclick="closeProductModal()"
+              class="px-5 py-3 bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold rounded-xl"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Success Notification Toast -->
+    <div
+      id="toast-success"
+      class="fixed bottom-6 right-6 z-50 bg-slate-900 text-white px-6 py-4 rounded-2xl shadow-2xl flex items-center gap-3 transform translate-y-32 opacity-0 transition-all duration-300 border border-slate-800"
+    >
+      <div
+        class="w-8 h-8 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center"
+      >
+        <i data-lucide="check" class="w-5 h-5"></i>
+      </div>
+      <div>
+        <h5 class="font-semibold text-sm">Mensagem enviada com sucesso!</h5>
+        <p class="text-xs text-slate-400">Entraremos em contato em breve.</p>
+      </div>
+    </div>
+
+    <script>
+      // Initialize Lucide icons
+      lucide.createIcons();
+
+      // Mobile menu toggle
+      const menuBtn = document.getElementById("mobile-menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      // Product Modal Logic
+      function openProductModal(title, description) {
+        document.getElementById("modal-title").innerText = title;
+        document.getElementById("modal-desc").innerText = description;
+        document.getElementById("product-modal").classList.remove("hidden");
+      }
+
+      function closeProductModal() {
+        document.getElementById("product-modal").classList.add("hidden");
+      }
+
+      // Form Submission Simulation
+      function handleFormSubmit(event) {
+        event.preventDefault();
+        const toast = document.getElementById("toast-success");
+        toast.classList.remove("translate-y-32", "opacity-0");
+        event.target.reset();
+        setTimeout(() => {
+          toast.classList.add("translate-y-32", "opacity-0");
+        }, 4000);
+      }
+    </script>
+  </body>
+</html>
